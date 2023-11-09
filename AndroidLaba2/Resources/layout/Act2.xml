@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+		<Button
+            android:text="one"
+            android:layout_width="200dp"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20" />
+		<Button
+            android:text="two"
+            android:layout_width="200dp"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20" />
+		<Button
+            android:text="three"
+            android:layout_width="200dp"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"/>
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:orientation="horizontal"
+        >
+		<Button
+        android:text="four"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight=".20" />
+		<Button
+        android:text="five"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight=".20" />
+
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+		<Button
+            android:text="six"
+            android:layout_width="200dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20" />
+		<Button
+            android:text="seven"
+            android:layout_width="200dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20" />
+		<Button
+            android:text="eight"
+            android:layout_width="200dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"/>
+	</LinearLayout>
+</LinearLayout>
+
+

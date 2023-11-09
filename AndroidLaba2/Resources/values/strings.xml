@@ -1,0 +1,9 @@
+<resources>
+	<string name="nos">Зеленый нос</string>
+    <string name="act1">AndroidApp2</string>
+	<string name="act2">Activity 2</string>
+	<string name="act3">Activity 3</string>
+	<string name="act4">Activity 4</string>
+    <string name="app_name">Hello, Android!</string>
+	<string name="app_text">Hello, Android!</string>
+</resources>
